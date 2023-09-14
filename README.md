@@ -6,7 +6,7 @@ There are both a `Next.js` application and a `Vite` application to show how diff
 
 To get started, run `pnpm i` at the root of the project. Next, link the `example-package` library into both applications by:
 
-```
+```bash
 cd example-package
 pnpm link ../next-project
 pnpm link ../vite-project
