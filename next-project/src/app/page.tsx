@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button, Dialog } from "example-package";
+import { Button } from "example-package";
 
 export default function Home() {
   const [count, setCount] = useState(0);
