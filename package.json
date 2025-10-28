@@ -1,0 +1,37 @@
+{
+  "name": "next-sample-003",
+  "version": "1.0.0",
+  "description": "This is a repo demonstrating how to configure tree-shaking in a `tsup` project.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekskorovin/next-sample-003.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alekskorovin/next-sample-003/issues"
+  },
+  "homepage": "https://github.com/alekskorovin/next-sample-003#readme",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.8",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@10.9.2",
+  "workspaces": [
+    "apps/nextjs",
+    "apps/react",
+    "packages/ui"
+  ]
+}

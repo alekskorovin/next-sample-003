@@ -16,6 +16,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2",
-    "example-package": "workspace:*"
+    "example-package": "1.0.0"
   }
 }
