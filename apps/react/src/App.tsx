@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Dialog } from "example-package";
+import { Button } from "example-package";
 
 export default function Home() {
   const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       Count is: {count}
       <Button onClick={() => setCount((c) => c + 1)}>Increment</Button>
-      {count > 5 && <Dialog></Dialog>}
+      {/* {count > 5 && <Dialog></Dialog>} */}
     </div>
   );
 }
